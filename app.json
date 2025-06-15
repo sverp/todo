@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "todo",
+    "name": "shubham's todo app",
     "slug": "todo",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -20,10 +20,16 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.sverp.todo"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "087af858-1eb8-4160-b436-1e8817d08894"
+      }
     }
   }
 }
