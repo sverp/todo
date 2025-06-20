@@ -23,6 +23,10 @@
       "edgeToEdgeEnabled": true,
       "package": "com.sverp.todo"
     },
+    "androidStatusBar": {
+      "backgroundColor": "#ffffff",
+      "barStyle": "dark-content"
+    },
     "web": {
       "favicon": "./assets/favicon.png"
     },

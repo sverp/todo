@@ -9,6 +9,7 @@ const Stack = createNativeStackNavigator();
 import { useEffect } from "react";
 import { fetchTodos } from "./redux/slice/todoSlice";
 import { useAppDispatch } from "./hooks";
+import { StatusBar } from "react-native";
 
 function AppInitializer({ children }: { children: React.ReactNode }) {
   const dispatch = useAppDispatch();
@@ -21,6 +22,7 @@ function AppInitializer({ children }: { children: React.ReactNode }) {
 export default function App() {
   return (
     <GestureHandlerRootView style={{ flex: 1 }}>
+      <StatusBar backgroundColor="#ffffff" barStyle="dark-content" />
       <Provider store={store}>
         <AppInitializer>
           <NavigationContainer>

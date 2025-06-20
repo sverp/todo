@@ -32,6 +32,7 @@ export default function Addtodoscreen() {
         <TextInput
           style={styles.bigInput}
           placeholder="Enter todo..."
+          placeholderTextColor="black"
           value={userInput}
           onChangeText={(text) => setUserInput(text)}
         />
